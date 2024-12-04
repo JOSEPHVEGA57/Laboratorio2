@@ -9,7 +9,11 @@
 .header{ 
 
     width: 100%;
-    background-color: #000;
+    background-color: black;
+}
+
+.logo img{
+    width: 80px;
 }
 
 .container{ 
@@ -21,10 +25,10 @@
 }
 
 .container .navegacion > a{
- color: #fff;
- text-decoration: none;
- padding-left: 2em;
- font-family:'Roboto';
+     color: #fff;
+     text-decoration: none;
+     padding-left: 2em;
+     font-family:'Roboto';
 }
 
 .navegacion > a:hover{
@@ -33,5 +37,73 @@
 
 /*>-- Cierra header --> */
 
-/* COMENTARIO 2*/
+/* Hero*/
 
+.hero{
+    background-image: url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height: 90vh; 
+    padding: 3em 0px;  
+}
+.padre{
+    position: relative;    
+}
+.presentation{
+ color: white;
+ padding-top: 5em;
+ position: relative;
+ z-index: 2;
+ 
+}
+
+.presentation{
+font-family: 'Roboto';
+font-size: 40px;
+width: 100%;
+max-width: 1400px;
+padding: 1em;
+margin:0px auto;
+}
+
+.presentation p{
+ font-size: 20px;
+}
+
+.btn{
+ background-color: rgb(153, 255, 127);
+ color: black;
+ padding: 1em 2em;
+ border-radius: 1em; 
+ cursor: pointer;
+ margin: 2em 0px; 
+}
+
+.btn:hover{
+ background-color: black;
+ color: white;
+}
+
+.capa{
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0.75);
+bottom: 0;
+z-index: 0;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2em 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Roboto';
+    z-index: 3;
+    
+}
